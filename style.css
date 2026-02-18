@@ -287,12 +287,12 @@ body {
 }
 
 .time-display {
-    font-size: 8em;
+    font-size: 14em;
     font-weight: 900;
     color: #333;
     font-family: 'Courier New', monospace;
     margin: 20px 0;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     transition: color 0.3s;
 }
 
@@ -388,12 +388,12 @@ body {
 }
 
 .qa-timer-display {
-    font-size: 6em;
+    font-size: 12em;
     font-weight: 900;
     color: #333;
     font-family: 'Courier New', monospace;
     margin: 30px 0;
-    letter-spacing: 8px;
+    letter-spacing: 5px;
     transition: color 0.3s;
 }
 
@@ -519,12 +519,12 @@ body {
     }
 
     .time-display {
-        font-size: 5em;
+        font-size: 8em;
         letter-spacing: 5px;
     }
 
     .qa-timer-display {
-        font-size: 4em;
+        font-size: 7em;
         letter-spacing: 4px;
     }
 
