@@ -188,7 +188,7 @@ function startTimer() {
                 clearInterval(timerInterval);
                 timerState.totalSeconds = timerState.elapsedSeconds;
                 playEndWarning();
-                speakText('Time is up');
+                speakText('are bhai bhai bhai bhai bhai ');
                 startQAPhase();
                 return;
             } else if (remainingSeconds > 0 && remainingSeconds % 5 === 0 && timerState.currentWarning === 'secondary') {
@@ -209,7 +209,7 @@ function startTimer() {
             if (timerState.qaSeconds <= 0) {
                 clearInterval(timerInterval);
                 timerState.qaSeconds = 0;
-                speakText('Please take it offline');
+                speakText('Kindly Please shut up');
                 playEndWarning();
                 setTimeout(() => {
                     showEndScreen();
@@ -439,3 +439,4 @@ document.getElementById('easterEggTrigger').addEventListener('contextmenu', (e) 
 // Initialize
 console.log('Conference Timer Ready! 🎤');
 console.log('Keyboard Shortcuts: SPACE = Pause/Resume, ESC = Close Talk');
+
